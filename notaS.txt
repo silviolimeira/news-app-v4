@@ -25,3 +25,6 @@ $ ng g pipe components/TimeAgo --flat false
 
 Install moment
 $ npm install moment
+
+Generate Items Component
+$ ng g component components/items --flat false
