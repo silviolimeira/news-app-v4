@@ -19,3 +19,9 @@ $ ng g module components --flat false
 
 Generate Item Component
 $ ng g component components/item --flat false
+
+Generate Pipe TimeAgo
+$ ng g pipe components/TimeAgo --flat false
+
+Install moment
+$ npm install moment
