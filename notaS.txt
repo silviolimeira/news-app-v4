@@ -16,3 +16,6 @@ $ ionic -c serve --browser=chrome --port=8100
 the following command. The option --flat false means generating a separate
 directory for the module.
 $ ng g module components --flat false
+
+Generate Item Component
+$ ng g component components/item --flat false
