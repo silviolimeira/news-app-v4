@@ -1,0 +1,13 @@
+
+Create the sample application:
+$ ionic start hacker-news-app-v4 blank --package-id=io.vividcode.ionic4.hnc --type angular --cordova --no-link
+
+Support for android or IOS:
+$ ionic cordova platform add android --save
+$ ionic cordova platform add ios --save
+
+Build the App for Production
+$ ng build --env=prod
+
+Run the App
+$ ionic -c serve --browser=chrome --port=8100
