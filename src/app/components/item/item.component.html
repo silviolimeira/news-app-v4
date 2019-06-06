@@ -1,21 +1,21 @@
 <div>
-  <h2 class="title">{{ item.title }}</h2>
+  <h2 *ngIf="item && item.title" class="title">{{ item.title }}</h2>
   <div>
-    <span>
+    <span *ngIf="item && item.score">
       <ion-icon name="bulb"></ion-icon>
       {{ item.score }}
     </span>
-    <span>
+    <span *ngIf="item && item.by">
       <ion-icon name="person"></ion-icon>
       {{ item.by }}
     </span>
-    <span>
+    <span *ngIf="item && item.time">
       <ion-icon name="time"></ion-icon>
       {{ item.time | timeAgo }} ago
     </span>
   </div>
   <div>
-    <span>
+    <span *ngIf="item && item.url">
       <ion-icon name="link"></ion-icon>
       {{ item.url }}
     </span>
