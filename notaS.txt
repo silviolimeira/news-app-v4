@@ -11,3 +11,8 @@ $ ng build --env=prod
 
 Run the App
 $ ionic -c serve --browser=chrome --port=8100
+
+   The two components are added to the module components that are created using
+the following command. The option --flat false means generating a separate
+directory for the module.
+$ ng g module components --flat false
