@@ -37,6 +37,9 @@ $ ng g module services --flat false
    after create we need to modify file app.module.ts to add the impport
 of the created ServicesModule.
 
+Generating service item
+ng g module services/item --flat false
+
 
 
 
