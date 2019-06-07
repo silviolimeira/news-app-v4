@@ -1,3 +1,5 @@
+import { Item } from "./item";
+
 export interface Item {
   id: number;
   title: string;
