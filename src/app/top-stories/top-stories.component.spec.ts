@@ -32,7 +32,8 @@ describe('top stories page', () => {
       fixture.detectChanges();
       let debugElements = fixture.debugElement.queryAll(By.css('h2'));
       expect(debugElements.length).toBe(10);
-      console.log('##>> toBe 2: ', debugElements.length);
+      expect(debugElements[0].nativeElement.textContent).toContain('Item 1');
+      expect(debugElements[1].nativeElement.textContent).toContain('Item 2');
     })
   }))
 
