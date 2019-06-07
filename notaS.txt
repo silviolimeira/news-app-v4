@@ -28,3 +28,15 @@ $ npm install moment
 
 Generate Items Component
 $ ng g component components/items --flat false
+
+Debugging of unit tests easier:
+$ ng test --source-map=false
+
+Generating services module
+$ ng g module services --flat false
+   after create we need to modify file app.module.ts to add the impport
+of the created ServicesModule.
+
+
+
+
