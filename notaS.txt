@@ -40,6 +40,9 @@ of the created ServicesModule.
 Generating service item
 ng g module services/item --flat false
 
+Generating Top Stories page 
+$ ng g module top-stories --routing
+$ ng g component top-stories -m top-stories
 
 
 
