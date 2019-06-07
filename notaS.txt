@@ -38,11 +38,15 @@ $ ng g module services --flat false
 of the created ServicesModule.
 
 Generating service item
-ng g module services/item --flat false
+$ ngg module services --flat false
+$ ng g service services/item -m services --flat false
 
 Generating Top Stories page 
 $ ng g module top-stories --routing
 $ ng g component top-stories -m top-stories
 
-
+Generate Items Loading Service Mock
+$ touch src/app/services/item/item.service.mock.ts
+Install lodash.range
+$ npm i lodash.range
 
