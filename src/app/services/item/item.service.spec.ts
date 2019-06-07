@@ -14,4 +14,10 @@ describe("ItemService", () => {
     const service: ItemService = TestBed.get(ItemService);
     expect(service).toBeTruthy();
   });
+
+  it("get top list items", () => {
+    const service: ItemService = TestBed.get(ItemService);
+    console.log(service.load(10, 10));
+  });
+
 });
