@@ -1,6 +1,12 @@
+Criando um CRUD completo com NodeJS, Express e MongoDB
+https://medium.com/baixada-nerd/criando-um-crud-completo-com-nodejs-express-e-mongodb-parte-1-3-6c8389d7147d
+https://medium.com/baixada-nerd/criando-um-crud-completo-com-nodejs-express-e-mongodb-parte-2-3-220a127d586f
+
 #Inicializando o projeto
 $ npm init
 
 #Instalando o Express
-npm install express --save
+$ npm install express --save
 
+# Instalando EJS (Embedded Javascript) for UI
+$ npm install ejs --save

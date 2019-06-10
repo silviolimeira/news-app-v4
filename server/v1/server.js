@@ -2,8 +2,9 @@ const express = require("express");
 const app = express();
 
 app.set("view engine", "jes");
+
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.render("index.ejs");
 });
 
 app.listen(3333, function() {
