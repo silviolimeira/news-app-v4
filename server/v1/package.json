@@ -13,6 +13,7 @@
     "body-parser": "^1.19.0",
     "ejs": "^2.6.1",
     "express": "^4.17.1",
+    "express-async-await": "^1.1.0",
     "mongodb": "^3.2.7"
   },
   "devDependencies": {

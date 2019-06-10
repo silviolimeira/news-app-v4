@@ -44,3 +44,36 @@ mongoClient.connect(uri, (err, client) => {
     console.log("Server running on port 3333...");
   });
 });
+
+app
+  .route("/edit/:id")
+  .get((req, res) => {
+    var id = req.params.id;
+
+    db.collection("data")
+      .find(Object(id))
+      .toArray((err, result) => {
+        if (err) return res.send(err);
+        res.render("edit.ejs", { data: result });
+      });
+  })
+  .post((req, res) => {
+    var id = req.params.id;
+    var name = req.body.name;
+    var surname = req.body.surname;
+
+    db.collection("data").updateOne(
+      { _id: ObjectId(id) },
+      {
+        $set: {
+          name: name,
+          surname: surname
+        }
+      },
+      (err, result) => {
+        if (err) return res.send(err);
+        res.redirect("/show");
+        console.log("Atualizado no Banco de Dados");
+      }
+    );
+  });
