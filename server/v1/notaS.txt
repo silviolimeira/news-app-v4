@@ -10,3 +10,7 @@ $ npm install express --save
 
 # Instalando EJS (Embedded Javascript) for UI
 $ npm install ejs --save
+# os arquivos .html tem de ficar na pasta views
+
+# Instalando o nodemon
+$ npm install nodemon --save-dev
