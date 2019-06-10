@@ -14,3 +14,6 @@ $ npm install ejs --save
 
 # Instalando o nodemon
 $ npm install nodemon --save-dev
+
+# add body-parser para tratar post
+$ npm install body-parser --save
