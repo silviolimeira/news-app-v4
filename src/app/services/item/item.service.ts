@@ -10,7 +10,7 @@ export class ItemService {
   constructor(private httpClient: HttpClient) {}
 
   load(offset: number, limit: number): Observable<Items> {
-    const url = "http://localhost:3333";
+    const url = "http://localhost:3335/api";
     return this.httpClient.get<Items>(url);
   }
 }

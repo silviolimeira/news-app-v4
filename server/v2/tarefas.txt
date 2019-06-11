@@ -1,0 +1,16 @@
+
+https://code4coders.wordpress.com/2016/10/14/desenvolvendo-uma-aplicacao-restful-api-em-node-js-express-js-com-mongodb/
+
+1) Definir a estrutura (skeleton) do projeto a ser desenvolvido
+2) Definir os pacotes de dependencia do Node no projeto através do arquivo package.json
+3) Configurar o Express.JS para poder levantar o serviço do projeto desenvolvido
+4) Criar o modelo da Base de Dados pelo MongoDB
+5) Definir o modelo através do Mongoose
+6) Criar a classe do projeto
+7) Criação das rotas através do Express.js
+8) Criar o método POST (Criar Usuário)
+9) Criar o método GET (Selecionar todos os Usuários)
+10) Criar o método GET (Selecionar Por id do Usuário)
+11) Criar o método PUT (Atualizar o Usuário)
+12) Criar o método DELETE (Deletar o Usuário)
+13) Testar Todas as rotas da aplicação (API) através do Postman
