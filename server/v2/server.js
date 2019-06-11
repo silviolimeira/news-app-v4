@@ -58,6 +58,26 @@ router
     });
   });
 
+router.route("/items/page/:skip").get(function(req, res) {
+  Item.find(function(err, items) {
+    if (err) res.send(err);
+    // res.json(items);
+
+    // offset: number;
+    // limit: number;
+    // total?: number;
+    // results: Item[];
+
+    var page = {
+      offset: 0,
+      limit: req.params.skip,
+      total: items.length,
+      results: items
+    };
+    res.json(page);
+  });
+});
+
 router
   .route("/items/:item_id")
   .get(function(req, res) {
