@@ -84,3 +84,7 @@ https://dzone.com/articles/change-streams-with-mongodb
  https://ionicacademy.com/ionic-4-local-notifications/
   https://ionicframework.com/docs/native/local-notifications
 
+
+https://devdactic.com/ionic-realtime-socket-io/
+
+https://www.techiediaries.com/ionic-http/
