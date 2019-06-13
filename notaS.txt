@@ -72,3 +72,15 @@ $ db.cappedCollection.find().sort( { $natural: -1 } )
 ## Change Streams With mongodb
 https://dzone.com/articles/change-streams-with-mongodb
 
+
+#===Research Push Notifications
+
+ https://medium.com/hirewithparam/independent-notification-service-using-ionic-node-fcm-5cdde219480a
+
+ https://www.airpair.com/ionic-framework/posts/push-notifications-using-ionic-framework
+
+ https://www.joshmorony.com/sending-push-notifications-with-the-phonegap-push-plugin-in-capacitor/
+
+ https://ionicacademy.com/ionic-4-local-notifications/
+  https://ionicframework.com/docs/native/local-notifications
+
